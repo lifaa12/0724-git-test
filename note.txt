@@ -1,0 +1,3 @@
+git checkout 移動head
+也可在graph右鍵checkout
+指令的話要搭配commit前6碼
