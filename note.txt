@@ -7,3 +7,6 @@ git clean -n
 git clean -f
 上述兩個可把未追蹤檔案刪除
 第一個是檢視 第二個是刪除
+
+git checkout -- xxx(檔名)
+可將該檔案為追蹤部分刪除
