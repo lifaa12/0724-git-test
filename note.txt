@@ -1,3 +1,9 @@
 git checkout 移動head
 也可在graph右鍵checkout
 指令的話要搭配commit前6碼
+checkout也可以直接checkout main 就可以回到head
+
+git clean -n
+git clean -f
+上述兩個可把未追蹤檔案刪除
+第一個是檢視 第二個是刪除
