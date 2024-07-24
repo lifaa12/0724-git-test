@@ -17,3 +17,4 @@ git checkout xxx 切換分支
 
 git merge xxx 合併分支(直接合併稱為快轉)
 git merge xxxx --no-ff(非快轉-會產生一個commit)
+切換分支前要先先將未commit的資料commit
