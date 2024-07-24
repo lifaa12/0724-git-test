@@ -18,3 +18,5 @@ git checkout xxx 切換分支
 git merge xxx 合併分支(直接合併稱為快轉)
 git merge xxxx --no-ff(非快轉-會產生一個commit)
 切換分支前要先先將未commit的資料commit
+取消commit: git reset HEAD^  取消當前commit ^^取消前兩個commit 依此類推
+取消commit 且變更內容也刪除: git reset HEAD^ --hard
