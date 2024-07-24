@@ -22,3 +22,4 @@ git merge xxxx --no-ff(非快轉-會產生一個commit)
 取消commit 且變更內容也刪除: git reset HEAD^ --hard
 test
 test2
+test-reflog
