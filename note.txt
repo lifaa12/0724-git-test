@@ -23,3 +23,7 @@ git merge xxxx --no-ff(非快轉-會產生一個commit)
 test
 test2
 test-reflog
+
+若要還原刪除的紀錄
+可從git reflog找出該紀錄的編號(按q退出)
+用git reset xx編號xx 就可還原該紀錄
