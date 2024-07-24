@@ -10,3 +10,7 @@ git clean -f
 
 git checkout -- xxx(檔名)
 可將該檔案為追蹤部分刪除
+
+git branch 查詢分支
+git branch xxx 開設分支
+git checkout xxx 切換分支
