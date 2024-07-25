@@ -39,3 +39,10 @@ test-reflog
 
 作者：
 假設協作者有更新，且已經merge，再vscode打git pull就可拉最新資料下來
+
+
+本地衝突
+假設兩個分支有衝突，merge時會跳出錯誤，可直接在vscode選擇保留哪一項變更，完成後git add、commit即可完成merge
+
+github flow原則:
+主線不開發 永遠都是在分支上開發 開發完成才merge回去
