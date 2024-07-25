@@ -27,3 +27,15 @@ test-reflog
 若要還原刪除的紀錄
 可從git reflog找出該紀錄的編號(按q退出)
 用git reset xx編號xx 就可還原該紀錄
+
+要協作別人的專案
+先到對方的github頁面，fork到自己的帳號
+再從本地端git clone xxx連結xxx 複製到自己的資料夾
+編輯完後，一樣git add、commit、push
+到github上 pill request=>new pull request=>create pull request 等待對方審核
+
+協作者：
+假設作者有更新 到github會看到有新的commit未同步，按同步後，再到vs code打git pull就可拉最新資料下來
+
+作者：
+假設協作者有更新，且已經merge，再vscode打git pull就可拉最新資料下來
